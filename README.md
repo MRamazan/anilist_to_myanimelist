@@ -6,6 +6,7 @@ Dictionary is consisted of total 17143 anime. There are 17029 anime with unique 
 Every value of a key is dictionary, if there are more than one anime with same title, there is an extra key named "datas" in the value dictionary.
 
 ### Example of a anime with unique title
+```
 "Air Gear": {
         "mal_id": 857,
         "title": {
@@ -16,8 +17,10 @@ Every value of a key is dictionary, if there are more than one anime with same t
         "anilist_id": 857,
         "episodes": 25
     }
+```
 
 ### Example of anime with common title
+```
 "Uchuu Kaizoku Captain Harlock": {
         "mal_ids": [],
         "episodes": [
@@ -47,3 +50,4 @@ Every value of a key is dictionary, if there are more than one anime with same t
             }
         ]
     }
+```
