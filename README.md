@@ -4,7 +4,7 @@ Every value of the key has anilist id and myanimelist id information in it.
 Dictionary is consisted of total 17143 anime. There are 17029 anime with unique title and 114 anime with same title and different ids.
 Every value of a key is dictionary, if there are more than one anime with same title, there is an extra key named "datas" in the value dictionary.<br>  
 I structured this JSON dictionary in a somewhat complex way due to the specific requirements of my project. 
-It doesn't include all the anime listed on AniList—only those that have received at least 100 user reviews in my dataset of 148 million user reviews.
+It doesn't include all the anime listed on AniList—only those that have received at least 100 user rating in my dataset of 148 million user ratings.
 
 
 ### Example of a anime with unique title
