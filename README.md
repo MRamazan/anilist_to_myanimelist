@@ -2,7 +2,7 @@
 anilist_to_mal.json is basically a dictionary. Keys are basically anime title.
 Every value of the key has anilist id and myanimelist id information in it. 
 Dictionary is consisted of total 17143 anime. There are 17029 anime with unique title and 114 anime with same title and different ids.
-I structured this JSON dictionary in a somewhat complex way due to the specific requirements of my project.
+I structured this JSON dictionary in a somewhat complex way due to the specific requirements of my project. <be>
 It doesn't include all the anime listed on AniList—only those that have received at least 100 user reviews in my dataset of 148 million user reviews.
 
 Every value of a key is dictionary, if there are more than one anime with same title, there is an extra key named "datas" in the value dictionary.
